@@ -3,6 +3,8 @@ import './App.css';
 import Boton from './components/Inputs/Boton';
 import Input from './components/Inputs/Input';
 import Seleccion from './components/Inputs/Seleccion';
+import Visualizador from './components/Visualizador/Visualizador'
+import Edicion from './components/Edicion/Edicion';
 
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
       <Seleccion variable = {'fuente'} array = {sizes}/>
 
       <Input variante = {'texto'}/>
+      <Visualizador/>
+      <Edicion/>
     </div>
   );
 }
