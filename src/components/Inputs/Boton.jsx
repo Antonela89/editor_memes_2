@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 
 const Boton = ({variante = 'outlined', contenido}) => {
   return (
-    <Button variant={variante}>{contenido}</Button>   
+    <Button sx={{m: 1}} variant={variante}>{contenido}</Button>   
   )
 }
 
